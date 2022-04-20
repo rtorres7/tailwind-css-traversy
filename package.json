@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-css-traversy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch:css": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtorres7/tailwind-css-traversy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtorres7/tailwind-css-traversy/issues"
+  },
+  "homepage": "https://github.com/rtorres7/tailwind-css-traversy#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
